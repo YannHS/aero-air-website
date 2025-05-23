@@ -1,0 +1,39 @@
+baseURL: https://aerospace.uottawa.xyz/
+languageCode: en-us
+title: uOAT
+theme: air
+params:
+  author:
+    name: You!
+    siteUrl: https://myip.wtf/
+  gmaps_url: https://www.google.com/maps/d/u/0/embed?mid=1UySq5HRbcRKL90dKuFpX6PRRtx0&ehbc=2E312F
+  mainColor: "#999999"
+  footer: "The Fucking Aeronautics Team"
+menu:
+  main:
+  - name: Home 
+    url: /
+    weight: 20
+    params:
+      target: 
+  - name: Join Us 
+    url: /join-us
+    weight: 30
+    params:
+      target: 
+  footer:
+  - name: Join Us 
+    url: /join-us
+    weight: 20
+    params:
+      target: 
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+
+
